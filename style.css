@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #535353;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)),
+    url('img/bg.jpg');
+    background-size: cover;
+    filter: blur(8px);
+    height:100vh;
+    width: 100vw;
+}
+
+#card-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    width: 300px;
+    margin: 100px auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.9)), 
+    url('/img/animal-close-up-leopard-87403.jpg') no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius:5px;
+}
+
+#card-container:hover .content{
+    background:rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    width: 300px;
+}
+
+/* -------------Card Header---------------- */
+.card-text {
+    color: #ffffff;
+    width: 100%;
+    float: left;
+    padding: 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card-text h3 {
+    color: #ffffff;
+}
+.card-text .index {
+    background: #d63031;
+    color: #ffffff;
+    padding: 10px 5px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.header-footer {
+    font-size: 16px;
+    color: white;
+    padding: 0px 15px;
+    margin-top: -10px;
+} 
+
+
+/* ----------------Card Footer--------------- */
+.content{
+    position: absolute;
+    bottom: -290px;
+    left: 50px;
+    right: 50px;
+    height: 300px;
+    width: 200px;
+    border-radius:20px 20px 0 0;
+    background: rgb(255, 255, 255);
+    transition:  0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.content-top {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.content h5 {
+    font-size: 16px;
+}
+
+.content p {
+    font-size: 13px;
+}
+.content-bottom {
+    padding: 20px 20px;
+    text-align: center;
+}
+.content-bottom h3 {
+    margin-top: -30px;
+    font-size: 24px;
+}
+.content-bottom button {
+    padding: 5px 10px;
+    border: 1px solid #d63031;
+    background: white;
+    color: #d63031;
+    font-size: 10px;
+    font-weight: 600;
+}
+.content-bottom button:hover {
+    background: #d63031;
+    color: white;
+    font-size: 12px;
+}
