@@ -25,7 +25,7 @@
     width: 300px;
     margin: 100px auto;
     background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.9)), 
-    url('/img/animal-close-up-leopard-87403.jpg') no-repeat;
+    url('./img/animal-close-up-leopard-87403.jpg') no-repeat;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     border-radius:5px;
